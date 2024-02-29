@@ -1,0 +1,45 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container
+{
+  display: flex;
+  border: 2px solid red;
+  width: 600px;
+  height: 300px;
+  
+}
+.bmi-calculation
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bmi-img{
+  /* background-repeat: no-repeat; */
+  background-image: url('./assets/bmi.jpg');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px ;
+  height: 296px;
+}
+.input-container
+{
+  margin-left: 30px;
+}
+.input-container label
+{
+  display: block;
+}
